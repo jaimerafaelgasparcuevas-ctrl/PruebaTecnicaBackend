@@ -1,0 +1,7 @@
+# Archivos compilados de Java
+*.class
+
+# Ejecutables temporales
+main
+tempCodeRunnerFile.java
+
