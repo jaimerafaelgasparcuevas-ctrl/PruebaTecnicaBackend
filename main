@@ -1,0 +1,13 @@
+Banco banco = new Banco("Mi Banco");
+
+
+banco.agregarCuenta(cuentas.get(1001));
+banco.agregarCuenta(cuentas.get(1002));
+
+
+System.out.println(banco.generarReporte());
+
+
+banco.cancelarCuenta(cuentas.get(1001).getNumeroCuenta());
+System.out.println("Después de cancelar una cuenta:");
+System.out.println(banco.generarReporte());
