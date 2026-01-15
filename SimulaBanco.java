@@ -3,6 +3,7 @@ import java.util.Date;
 import java.util.HashMap;
 
 import org.generation.util.ReciboSaldo;
+import org.generation.util.TarjetaRegalo;
 import org.generation.util.banco.Cuenta;
 import org.generation.util.banco.CuentaCredito;
 import org.generation.util.banco.CuentaDebito;
@@ -31,6 +32,8 @@ public class SimulaBanco {
 
 		ReciboSaldo.Imprimir(cuentas.get(1001));
 		ReciboSaldo.Imprimir(cuentas.get(1002));
+		TarjetaRegalo regalo = new TarjetaRegalo(9001, 500);
+		ReciboSaldo.Imprimir(regalo);
 
 	}// main
 }// class Banco
